@@ -1,0 +1,30 @@
+<html>
+	
+  <head>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+	
+  <body>
+    <div id="fondo">
+      
+      <div id="titulo">Panteras Sagaces</div>
+      
+      <div id="imagen">
+        <img id="foto" src="https://previews.123rf.com/images/refluo/refluo1702/refluo170200020/72128567-gru%C3%B1ir-cara-de-pantera.jpg"/>                
+      </div>
+      
+      <div id="integrantes">
+        <p class="tituloInterno">Panteritas</p>
+        <ol>
+          <li>Mayra Alejandra Castillo Motta.</li>
+          <li>Leidy Viviana Cortés Carvajal.</li>
+          <li>Ruben Dario Dorado.</li>
+          <li>Julieth Fernanda Hurtado Sanchez.</li>
+          <li>Nicole Daniela Urbano Palechor.</li>
+        </ol>
+      </div>
+      
+    </div>
+    
+  </body>
+</html>

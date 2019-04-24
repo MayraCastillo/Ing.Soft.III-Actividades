@@ -1,0 +1,71 @@
+body
+{
+  font-family: arial;
+}
+
+#fondo
+{
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+  background: -webkit-linear-gradient(left top, #03E7FC, #000582);
+  box-shadow: 5px 5px 15px #666;
+  overflow: auto;
+}
+
+#titulo
+{
+  width: 575px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: red;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  font: oblique bold 200% cursive;
+}
+
+
+#imagen
+{
+  width: 180px;
+  height: 180px;
+  background-color: white;
+  border: 10px ridge silver;
+  margin: 10px;
+  float: left;
+}
+
+#foto
+{
+  width: 160px;
+  height: 160px;
+  background-color: green;
+  margin: 10px;
+}
+
+#integrantes
+{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: Black;
+  margin: 10px;
+  float: right;
+  opacity: 0.7;
+  color: white;
+}
+
+li
+{
+    margin: 2%;
+}
+
+.tituloInterno
+{
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+}
+
