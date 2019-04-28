@@ -1,0 +1,270 @@
+body
+{
+  font-family: "Palatino", sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: fantasy, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.contenedor
+{
+  margin: auto;
+  width: 98%;
+}
+
+/*Estilos del header*/
+.encabezado
+{
+  height: 60px;
+}
+
+.encabezado .contenedor
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nombreTribu, .icon-menu
+{
+  margin: 5px;
+  margin-top:10px;
+  color:#FFF;
+}
+
+.icon-menu
+{
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: #0404B4;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/*Estilos del menu*/
+.navegador
+{
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.menu, .submenu
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu
+{
+  padding-left: 20px;
+}
+
+.menu-link
+{
+  display: block;
+  padding: 15px;
+  background: #0404B4;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.menu-link:hover, .select
+{
+  background: #FFF;
+  color:#0404B4;
+}
+
+.mostrar
+{
+  left: 0;
+}
+
+
+/*Estilos del banner*/
+.banner
+{
+  /*height: 300px;luego lo quito*/
+  margin-top: -60px;
+  position: relative;
+  z-index: -1000;
+  margin-bottom: 20px;
+  /*background-color: green;luego lo quito*/
+}
+
+.banner .contenedor
+{
+  position: absolute;
+  top: 50;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  color: #FFF; 
+  text-align: center;
+  padding-top: 600px;/*luego lo quito*/
+}
+
+.banner-texto
+{
+  display: none;
+}
+
+/*Estilos de la informacion*/
+.info-columna
+{
+  background-color: #2E9AFE;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #666;
+}
+
+.info-img
+{
+  width: 100px;
+}
+
+/*Estilos pie de pagina*/
+.pie-de-pagina {
+  background-color: #424242;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.pie-de-pagina .social [class^="icon-"] {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  color: #424242;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+}
+
+
+/*Estilos renponsive*/
+@media(min-width: 480px){
+  .banner-titulo
+  {
+    font-size: 30px;
+    margin: 5px 0px;
+  }
+  
+  .banner-texto
+  {
+    display: block;
+    font-size: 20px;
+    margin: 7px 0px;
+  }
+  
+  .informacion
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+  }
+  
+  .info-columna
+  {
+    width: 32%;
+  }
+}
+
+@media(minn-width: 768px){
+  .banner-titulo
+  {
+    font-size: 50px;
+  }
+}
+
+@media(min-width: 1024px){
+  .contenedor
+  {
+    width: 1000px;
+  }
+  
+  .banner-titulo
+  {
+    margin-top: -250px;
+    font-size: 40px;
+    width: auto;
+  }
+  
+  .banner-texto
+  {
+    font-size: 23px;
+  }
+  
+  .navegador
+  {
+    position: static;
+    width: auto;
+  }
+  
+  .menu
+  {
+    display: flex;
+  }
+  
+  .icon-menu
+  {
+    display: none;
+  }
+  
+  .menu-link
+  {
+    background: none;
+    font-size: 18px;
+  }
+  
+  .select
+  {
+    background-color: #FFF;
+    color: #0B0B3B;
+  }
+  
+  .menu li ul
+  {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+  }
+  
+  .menu-item:hover > .submenu
+  {
+    display: block;
+  }
+}
+
+@media(min-width:1280px) {
+  .contenedor
+  {
+    width: 1000px;
+  }
+  
+  .banner .contenedor
+  {
+    top: 40%;
+  }
+  
+  .informacion
+  {
+    margin-top: -100px;
+  }
+}
