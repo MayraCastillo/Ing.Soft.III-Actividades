@@ -4,54 +4,51 @@
     <meta charset=utf-8 />
     <title>Panteras Sagaces</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilosBase.css">
 	<link rel="stylesheet" href="css/estilosIndex.css">
-	<link href="https://file.myfontastic.com/t5tNwfwUapz4yDzK3B6sfe/icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/iconos.css">
   </head>
 
   <body>
     <header class="encabezado">
       <div class="contenedor">
+        <h1 class="nombreTribu">Panteras Sagaces</h1>
         <span class="icon-menu" id="btn-menu"></span>
         <nav class="navegador" id="nav">
           <ul class="menu">
-            <li class="menu-item"><a class="menu-link select" href="">Inicio</a><li>
-            <li class="menu-item"><a class="menu-link" href="">Acerca</a>
-            	<ul class="submenu">
-                  <li class="menu-item"><a class="menu-link" href="">Logros</a><li>
-                  <li class="menu-item"><a class="menu-link" href="">Competencias</a><li>
-                </ul>
+            <li class="menu-item"><a class="menu-link select" href="index.html">Inicio</a><li>
             <li>
-            <li class="menu-item"><a class="menu-link" href="">Integrantes</a>
+            <li class="menu-item"><a class="menu-link" href="#">Integrantes</a>
               <ul class="submenu">
-                <li class="menu-item"><a class="menu-link" href="perfilMayra.html">Mayra Castillo</a><li>
-                <li class="menu-item"><a class="menu-link" href="">Viviana Cortes</a><li>
-                <li class="menu-item"><a class="menu-link" href="perfilRuben.html">Ruben Dario</a><li>
-                <li class="menu-item"><a class="menu-link" href="perfilJulieth.html">Julieth Hurtado</a><li>
-                <li class="menu-item"><a class="menu-link" href="perfilNicole.html">Nicole Urbano</a><li>
+                <li class="subMenu-item"><a class="menu-link" href="perfilMayra.html">Mayra Castillo</a><li>
+                <li class="subMenu-item"><a class="menu-link" href="perfilViviana.html">Viviana Cortes</a><li>
+                <li class="subMenu-item"><a class="menu-link" href="perfilRuben.html">Ruben Dario</a><li>
+                <li class="subMenu-item"><a class="menu-link" href="perfilJulieth.html">Julieth Hurtado</a><li>
+                <li class="subMenu-item"><a class="menu-link" href="perfilNicole.html">Nicole Urbano</a><li>
               </ul>
             <li>
+	    <li class="menu-item"><a class="menu-link" href="sugerencia.html">Cont?ctenos</a>
           </ul>
         </nav>
       </div>
-  	</header>
+    </header>
 
     <div class="banner">
-     <img src="img/imgBanner.png" alt="Imagen con todos los personajes correspondientes al equipo Panteras sagaces." class="banner-img">
-      <div class="contenedor">
-        <h2 class="banner-titulo">No se que poner aqui.</h2>
-        <p class="banner-texto">Aqui si que menos :v</p>
-      </div>
+      <div id="slider"></div>
     </div>
+
+    <img src="img/imgIntegrantes.png" alt="Imagen con todos los personajes correspondientes al equipo Panteras sagaces." class="imgIntegrantes">
 
     <main class="contenido">
       <div class="contenedor">
-
+	<h3 id="msgBienvenida">Bienvenido</h3>
+	<p id="texto" align="justify">Te encuentras en el sitio web oficial del equipo "Panteras Sagaces", aquí podrás encontrar toda clase de información detallada de sus integrantes.</p>
         <section class="informacion">
-
+	  
           <article class="info-columna">
             <img src="img/imgViviana.png" alt="Imagen del perfil de Viviana." class="info-img">
             <img src="img/imgJulieth.png" alt="Imagen del perfil de Julieth." class="info-img">
-            <h2 class="info-titulo">Guerreras</h2>
+            <h2 class="info-titulo">Guerreros</h2>
             <p class="info-texto">Tienen la guerra como forma de vida. Su objetivo es defender y dar la vida, si es necesario, por su clan de los clanes enemigos.</p>
           </article>
 
@@ -59,13 +56,13 @@
             <img src="img/imgMayra.png" alt="Imagen del perfil de Mayra." class="info-img">
             <img src="img/imgRuben.png" alt="Imagen del perfil de Ruben." class="info-img">
             <h2 class="info-titulo">Magos</h2>
-            <p class="info-texto">Emplea ciertos conocimientos y practicas, con los que pretende conseguir cosas extraordinarias gracias a la ayuda de seres o fuerzas sobrenaturales.</p>
+            <p class="info-texto">Emplean ciertos conocimientos y prácticas, con los que pretende conseguir cosas extraordinarias gracias a la ayuda de seres o fuerzas sobrenaturales.</p>
           </article>
 
           <article class="info-columna">
             <img src="img/imgNicole.png" alt="Imagen del perfil de Nicole." class="info-img">
-            <h2 class="info-titulo">Curandera</h2>
-            <p class="info-texto">Encargado de sanar incrementando la vida de sus companieros cuando sea necesario con su poder curativo.</p>
+            <h2 class="info-titulo">Curanderos</h2>
+            <p class="info-texto">Encargados de sanar e incrementando la vida de sus compañeros cuando sea necesario con su poder curativo.</p>
           </article>
         </section>
 
@@ -77,7 +74,7 @@
         <div class="social">
           <a href="#" class="icon-facebook"></a>
           <a href="#" class="icon-twitter"></a>
-          <a href="#" class="icon-gplus"></a>
+          <a href="#" class="icon-google-plus"></a>
         </div>
       </div>
     </footer>
